@@ -5,6 +5,7 @@
     <string name="login_button_entrar">Sign in</string>
 
     <string name="cadastro_email">Email</string>
+    <string name="cadastro_senha">Password</string>
     <string name="cadastro_nome">Name</string>
     <string name="cadastro_nascimento">Born</string>
     <string name="cadastro_radio_masculino">Man</string>
