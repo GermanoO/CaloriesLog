@@ -15,7 +15,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="Nascimento"
+        android:hint="@string/cadastro_nascimento"
         android:textAlignment="viewStart"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
@@ -30,7 +30,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="Nome"
+        android:hint="@string/cadastro_nome"
         android:textAlignment="viewStart"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
@@ -45,7 +45,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="E-mail"
+        android:hint="@string/cadastro_email"
         android:textAlignment="viewStart"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
@@ -69,14 +69,14 @@
             android:id="@+id/radio_pirates"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Feminino"
+            android:text="@string/cadastro_radio_feminino"
             android:textColor="#F2F3F4" />
 
         <RadioButton
             android:id="@+id/radio_ninjas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masculino"
+            android:text="@string/cadastro_radio_masculino"
             android:textColor="#F2F3F4" />
     </RadioGroup>
 
@@ -87,7 +87,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Entrar"
+        android:text="@string/cadastro_button_proximo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
