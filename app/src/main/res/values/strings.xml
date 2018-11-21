@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">CaloriesLog</string>
+
+    <string-array name="opcoes">
+        <item>Perder Peso</item>
+        <item>Ganhar Peso</item>
+        <item>Melhorar Alimentação</item>
+        <item>Ganhar Massa Muscular</item>
+    </string-array>
+
+    <string-array name="metas">
+        <item>0,5kg por semana</item>
+        <item>1 kg por semana</item>
+        <item>1,5kg por semana</item>
+        <item>2 kg por semana</item>
+    </string-array>
+
 </resources>

@@ -5,91 +5,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#154360"
-    tools:context=".Cadastro"
+    tools:context=".Dados"
     tools:layout_editor_absoluteY="81dp">
 
     <EditText
-        android:id="@+id/et_user_name6"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:hint="Nascimento"
-        android:textAlignment="viewStart"
-        android:textColor="#F2F3F4"
-        android:textColorHint="#F2F3F4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_user_name5" />
-
-    <EditText
-        android:id="@+id/et_user_name5"
+        android:id="@+id/et_user_name2"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:hint="Nome"
+        android:text="Altura"
         android:textAlignment="viewStart"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_user_name" />
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name5" />
 
     <EditText
-        android:id="@+id/et_user_name"
+        android:id="@+id/et_user_name3"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Nome"
+        android:text="Peso"
+        android:textAlignment="viewStart"
+        android:textColor="#F2F3F4"
+        android:textColorHint="#F2F3F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name2" />
+
+    <EditText
+        android:id="@+id/et_user_name5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="E-mail"
+        android:hint="Nome"
+        android:text="Idade"
         android:textAlignment="viewStart"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/radioGroup"
-        android:layout_width="148dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_user_name6">
-
-        <RadioButton
-            android:id="@+id/radio_pirates"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Feminino"
-            android:textColor="#F2F3F4" />
-
-        <RadioButton
-            android:id="@+id/radio_ninjas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Masculino"
-            android:textColor="#F2F3F4" />
-    </RadioGroup>
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Entrar"
+        android:text="Próximo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/et_user_name3" />
+
 
 </android.support.constraint.ConstraintLayout>
