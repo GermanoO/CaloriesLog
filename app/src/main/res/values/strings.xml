@@ -20,6 +20,9 @@
     <string name="objetivos_peso_desejado">Peso Desejado</string>
     <string name="objetivos_meta">Meta</string>
 
+    <string name="inicial_criar_perfil">Criar Perfil</string>
+    <string name="inicial_cadastrado">Já tem cadastro? Entre aqui</string>
+
     <string-array name="opcoes">
         <item>Perder Peso</item>
         <item>Ganhar Peso</item>

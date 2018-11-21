@@ -20,6 +20,9 @@
     <string name="objetivos_peso_desejado">Desired weight</string>
     <string name="objetivos_meta">Goal</string>
 
+    <string name="inicial_criar_perfil">Create Profile </string>
+    <string name="inicial_cadastrado">You have an account? Sign in</string>
+
     <string-array name="opcoes">
         <item>lose weight</item>
         <item>gain weight</item>
