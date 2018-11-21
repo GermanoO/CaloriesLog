@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CaloriesLog</string>
+    <string name="login_name">Login</string>
+    <string name="login_pass">Password</string>
+    <string name="login_button_entrar">Sign in</string>
+
+    <string name="cadastro_email">Email</string>
+    <string name="cadastro_nome">Name</string>
+    <string name="cadastro_nascimento">Born</string>
+    <string name="cadastro_radio_masculino">Man</string>
+    <string name="cadastro_radio_feminino">Woman</string>
+    <string name="cadastro_button_proximo">Next</string>
+
+    <string name="dados_idade">Age</string>
+    <string name="dados_altura">Height</string>
+    <string name="dados_peso">Weight</string>
+    <string name="dados_button_proximo">Next</string>
+
+    <string name="objetivos_objetivo">Objective</string>
+    <string name="objetivos_peso_desejado">Desired weight</string>
+    <string name="objetivos_meta">Goal</string>
+
+    <string-array name="opcoes">
+        <item>lose weight</item>
+        <item>gain weight</item>
+        <item>improve your diet</item>
+        <item>hypertrophy</item>
+    </string-array>
+
+    <string-array name="metas">
+        <item>0,5kg per week</item>
+        <item>1 kg per week</item>
+        <item>1,5kg per week</item>
+        <item>2 kg per week</item>
+    </string-array>
+
+</resources>
