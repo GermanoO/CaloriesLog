@@ -8,24 +8,10 @@
     tools:context=".Login"
     tools:layout_editor_absoluteY="81dp">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="153dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846"
-        app:srcCompat="@drawable/cl" />
-
     <EditText
         android:id="@+id/et_user_name"
-        android:layout_width="296dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -39,42 +25,42 @@
 
     <EditText
         android:id="@+id/et_password"
-        android:layout_width="289dp"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textColor="#F2F3F4"
         android:textColorHint="#F2F3F4"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="389dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="123dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="120dp"
-        android:text="Tornando sua dieta melhor"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toTopOf="@+id/et_user_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="297dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
         android:text="Entrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cl" />
 
 </android.support.constraint.ConstraintLayout>
