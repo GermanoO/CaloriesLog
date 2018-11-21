@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#154360"
+    android:background="#1D7CF2"
     tools:context=".Objetivo">
 
     <Spinner
@@ -62,7 +62,9 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
+        android:background="#49E20E	"
         android:text="Entrar"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner2" />
